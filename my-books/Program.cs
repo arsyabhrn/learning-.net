@@ -28,4 +28,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+AppDbInitializer.Seed(app);
+
 app.Run();
